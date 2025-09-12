@@ -1,0 +1,24 @@
+.box{
+    width: 100vw;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    h1{
+        font-family: 'Courier New', Courier, monospace;
+        width: 40%;
+    }
+    .boxElements{
+        width: 30%;
+        height: 70%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        & *{
+            padding: 1vh;
+            margin: 1vh;
+        }
+    }
+}

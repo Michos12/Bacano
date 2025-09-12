@@ -1,4 +1,5 @@
 .name-container{
+    margin: 3vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
