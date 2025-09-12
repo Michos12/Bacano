@@ -5,6 +5,9 @@ import Elements from './uiElements/ui'
 import Nav from './nav/nav'
 import UserContext from './provider/context'
 import { useState } from 'react'
+import { Routes, Route } from 'react-router-dom'
+import Hooks from './hooks/hooks'
+import Context from './context/context'
 
 function App() {
 
@@ -24,11 +27,17 @@ function App() {
         <Nav></Nav>
       </div>
       <div className='down'>
-        <UserContext value={{ user, setUser }}>
-          <Home />
-        </UserContext>
-        <Name />
-        <Elements />
+          <Routes>
+            <Route path='' element={ <Home /> } />
+            <Route path='/elements' element={ <Elements /> } />
+            <Route path='/hooks' element={ <Hooks /> } />
+            <Route path='/name' element={ <Name /> } />
+            <Route path='/context' element={
+              <UserContext value={{ user, setUser}}>
+                <Context />
+              </UserContext>
+              } />
+          </Routes>
       </div>
     </div>
   )

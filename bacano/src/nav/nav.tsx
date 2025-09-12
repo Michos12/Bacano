@@ -4,12 +4,13 @@ function Nav(){
     return(
         <div className="box">
             <div className="left">
-                <a href="">
-                    <img src="bacano/public/assets/kitty.jpg" alt="" />
-                </a>
+                <a href="/">Home</a>
             </div>
             <div className="right">
-                <h1>Hola</h1>
+                <a href="/elements">UI elements</a>
+                <a href="/hooks">Hooks</a>
+                <a href="/name">Name</a>
+                <a href="/context">Context</a>
             </div>
         </div>
     )

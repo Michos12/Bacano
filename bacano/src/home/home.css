@@ -1,3 +1,12 @@
+.title{
+    display: flex;
+    width: 100vw;
+    height: 25vh;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    align-self: center;
+}
 .box{
     width: 50vw;
     height: 100%;

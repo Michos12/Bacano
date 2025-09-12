@@ -5,10 +5,21 @@
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
+    font-size:x-large;
     .left{
         width: 30%;
+        align-content: center;
+        justify-content: center;
+        height: 100%;
+        margin-left: 2vw;
     }
     .right{
         width: 30%;
+        justify-content: center;
+        align-content: center;
+        margin-right: 2VW;
+        a{
+            margin: 1vh 3vh;
+        }
     }
 }
