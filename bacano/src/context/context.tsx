@@ -7,6 +7,7 @@ function Context (){
     return(
         <div className="example">
             <h1>Hello Im {user.name} and I have { user.age }</h1>
+            <h1>My data come from the App Component!</h1>
         </div>
     )
 
