@@ -1,13 +1,17 @@
 .box{
     width: 100vw;
-    height: auto;
+    height: 100vh;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
-    h1{
-        font-family: 'Courier New', Courier, monospace;
-        width: 40%;
+    background-color: aliceblue;
+    .text{
+        width: 50%;
+        p{
+            font-family: 'Courier New', Courier, monospace;
+            margin: 1vh 2vh;
+        }
     }
     .boxElements{
         width: 30%;
@@ -16,6 +20,7 @@
         flex-direction: column;
         align-items: center;
         justify-content: space-between;
+        margin-right: 10vw;
         & *{
             padding: 1vh;
             margin: 1vh;
