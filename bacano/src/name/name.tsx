@@ -9,7 +9,7 @@ function Message ({nameValue}: {nameValue: string}) {
     }
 }
 
-export default function Name() {
+function Name() {
     const [name, setName] = useState("Dont write Pedrito!");
     
   return (
@@ -26,3 +26,4 @@ export default function Name() {
     </div>
   )
 }
+export default Name;

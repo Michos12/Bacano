@@ -1,0 +1,14 @@
+.container{
+    background-color: aliceblue;
+    font-family: 'Courier New', Courier, monospace;
+    margin: 2vh 3vh;
+    h1{
+        padding: 2vh;
+        font-size: large;
+        font-weight: bold;
+        margin: 1vh;
+    }
+    input{
+        padding: 1vh 2vh;
+    }
+}

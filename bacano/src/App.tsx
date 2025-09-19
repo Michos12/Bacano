@@ -8,13 +8,15 @@ import { useState } from 'react'
 import { Routes, Route } from 'react-router-dom'
 import Hooks from './hooks/hooks'
 import Context from './context/context'
+import Counter from './counter/counter'
+
+
+export interface User{
+  name: string,
+  age: number
+}
 
 function App() {
-
-  interface User{
-    name: string,
-    age: number
-  }
 
   const [user, setUser] = useState<User>({
     name: 'Michael',
@@ -37,6 +39,7 @@ function App() {
                 <Context />
               </UserContext>
               } />
+            <Route path='/counter' element={ <Counter /> } />
           </Routes>
       </div>
     </div>

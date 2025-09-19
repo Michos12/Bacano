@@ -11,6 +11,7 @@ function Nav(){
                 <a href="/hooks">Hooks</a>
                 <a href="/name">Name</a>
                 <a href="/context">Context</a>
+                <a href="/counter">Counter</a>
             </div>
         </div>
     )
